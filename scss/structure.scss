@@ -1,0 +1,247 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(../fonts/Bangers/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+.new-title p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.new-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.recent-title p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.recent-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.releases-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.releases-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.new-releases {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.more-new-releases p {
+    font-size: 33px;
+    color: black;
+    margin-right: 30px;
+    padding-top: 25px;
+}
+
+.recent-releases {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.more-recent-releases p {
+    font-size: 33px;
+    color: black;
+    margin-right: 30px;
+    padding-top: 25px;
+}
+
+.albums-favorites-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.albums-favorites-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.manager-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.assistant-manager-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.salesperson-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.clerk-lead-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.favorite-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.merch-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.merch-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.merch-subtitle {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.merch-subtitle h2 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 40px;
+}
+
+.merch-item-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.t-shirts {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 100px;
+}
+
+.shirt-name p {
+    text-decoration: underline;
+    color: #CD37E2;
+    font-size: 16px;
+    font-family: Raleway;
+}
+
+.about-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.about-paragraph {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-paragraph p {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 24px;
+}
+
+.about-team-intro {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-team-intro p {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.salesperson-list {
+    padding-top: 60px;
+}
+
+.salesperson-fname {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 90px;
+}
+
+.fname-salesperson {
+    font-family: Bangers;
+    color: #CD37E2;
+    height: 200px;
+    margin: auto 0;
+    padding-left: 70px;
+}
+
+.fname-salesperson h2 {
+    font-size: 40px;
+}
+
+.salesperson-get-to-know {
+    font-family: Raleway;
+    color: #CD37E2;
+    margin-top: 70px;
+}
+
+.join-our-team-button p {
+    font-size: 33px;
+    color: black;
+    margin-left: 25px;
+    padding-top: 25px;
+    font-family: Bangers;
+}

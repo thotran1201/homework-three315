@@ -1,0 +1,439 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(../fonts/Bangers/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #870CD9;
+    height: 300px;
+}
+
+header img {
+    height: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #6400A7;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    font-family: Raleway;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.new-title p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.new-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.new-albums img {
+    margin-top: 50px;
+    height: 180px;
+    padding-right: 80px;
+}
+
+.new-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 180px;
+    margin-top: 50px;
+    background-color: #CD37E2;
+}
+
+.new-scroll img {
+    height: 80px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+.recent-title p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.recent-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.recent-albums img {
+    margin-top: 50px;
+    height: 180px;
+    padding-right: 80px;
+}
+
+.recent-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 180px;
+    margin-top: 50px;
+    background-color: #CD37E2;
+}
+
+.recent-scroll img {
+    height: 80px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+.releases-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.releases-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.new-releases {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.new-releases img {
+    margin-top: 50px;
+    height: 210px;
+    padding-right: 80px;
+}
+
+.more-new-releases {
+    background-color: #CD37E2;
+    height: 80px;
+    width: 213px;
+    margin-left: 60px;
+}
+
+.more-new-releases p {
+    font-size: 33px;
+    color: black;
+    margin-right: 30px;
+    padding-top: 25px;
+}
+
+.recent-releases {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.recent-releases img {
+    margin-top: 50px;
+    height: 210px;
+    padding-right: 80px;
+}
+
+.more-recent-releases {
+    background-color: #CD37E2;
+    height: 80px;
+    width: 213px;
+    margin-left: 60px;
+}
+
+.more-recent-releases p {
+    font-size: 33px;
+    color: black;
+    margin-right: 30px;
+    padding-top: 25px;
+}
+
+.albums-favorites-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.albums-favorites-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.manager-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.assistant-manager-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.salesperson-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.clerk-lead-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.favorite-albums {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 60px;
+}
+
+.favorite-albums img {
+    margin-top: 50px;
+    height: 210px;
+    padding-right: 80px;
+}
+
+.merch-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.merch-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.merch-subtitle {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.merch-subtitle h2 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 40px;
+}
+
+.merch-item-name p {
+    color: #CD37E2;
+    font-family: Bangers;
+    font-size: 60px;
+    padding-left: 65px;
+    margin-top: 80px;
+}
+
+.t-shirts {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 100px;
+}
+
+.shirt-name p {
+    text-decoration: underline;
+    color: #CD37E2;
+    font-size: 16px;
+    font-family: Raleway;
+}
+
+.about-title {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-title h1 {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.about-paragraph {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-paragraph p {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 24px;
+}
+
+.about-team-intro {
+    margin-left: 70px;
+    padding-top: 95px;
+}
+
+.about-team-intro p {
+    font-family: Bangers;
+    color: #CD37E2;
+    font-size: 55px;
+}
+
+.salesperson-list {
+    padding-top: 60px;
+}
+
+.salesperson-fname {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 90px;
+}
+
+.salesperson-fname img {
+    height: 280px;
+    padding-left: 70px;
+}
+
+.fname-salesperson {
+    font-family: Bangers;
+    color: #CD37E2;
+    height: 200px;
+    margin: auto 0;
+    padding-left: 70px;
+}
+
+.fname-salesperson h2 {
+    font-size: 40px;
+}
+
+.salesperson-get-to-know {
+    font-family: Raleway;
+    color: #CD37E2;
+    margin-top: 70px;
+}
+
+.join-our-team-button {
+    background-color: #CD37E2;
+    height: 80px;
+    width: 213px;
+    margin-left: 420px;
+}
+
+.join-our-team-button p {
+    font-size: 33px;
+    color: black;
+    margin-left: 25px;
+    padding-top: 25px;
+    font-family: Bangers;
+}
+
+footer {
+    text-align: center;
+    background-color: #870CD9;
+    height: 400px;
+    margin-top: 250px;
+}
+
+.subscribe {
+    font-family: Raleway;
+    color: white;
+    padding-top: 50px;
+}
+
+.subscribe-offers {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    border: 2px solid black;
+    background-color: #870CD9;
+    height: 45px;
+    width: 300px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bangers;
+    color: white;
+    height: 45px;
+    width: 190px;
+    background-color: #CD37E2;
+}
+
+.subscribe-button p {
+    padding-top: 18px;
+    font-size: 25px;
+}
+
+.email-message {
+    padding-top: 40px;
+}
+
+.email-message h2 {
+    font-family: Bangers;
+    color: white;
+    padding-top: 34px;
+    font-size: 37px;
+}
+
+.email-message p {
+    font-family: Raleway;
+    color: white;
+    padding-top: 6px;
+}
+
+.copyright {
+    padding-top: 59px;
+}
+
+.copyright p {
+    font-family: Bangers;
+    color: white;
+    font-size: 23px;
+}
