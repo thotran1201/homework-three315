@@ -10,4 +10,3 @@ For what I constructed:
 - Speaking of JS, I also constructed JQuery and MVC onto the model.js and app.js
 - Try to inject all 5 pages
 
-There is one problem: The images I tried to upload wouldn't let me. "Tested the water" on uploading the images folder again, I got the message saying "Yowza, that’s a lot of files. Try uploading fewer than 100 at a time," even though I have all the images on the website.
